@@ -137,7 +137,9 @@ function layout() {
   else resume();
 }
 
-document.querySelector('#rotate').addEventListener('click', () => { forced = true; layout(); });
+const rotate = document.querySelector('#rotate');
+rotate.addEventListener('click', () => { forced = true; layout(); });
+rotate.disabled = false;
 if (landscape.addEventListener) landscape.addEventListener('change', layout);
 else landscape.addListener(layout);
 play.addEventListener('click', () => { wanted = true; resume(); });
