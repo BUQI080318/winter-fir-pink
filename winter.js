@@ -6,8 +6,8 @@ const gate = document.querySelector('#orientation-gate');
 const play = document.querySelector('#playback');
 const statusLine = document.querySelector('#status');
 const landscape = matchMedia('(orientation: landscape)');
-const mp4 = 'fir-pink-1080-v2.mp4';
-const hls = 'stream-pink-v2/stream.m3u8';
+const mp4 = 'fir-pink-1080-v3.mp4';
+const hls = 'stream-pink-v3/stream.m3u8';
 const codec = 'video/mp4; codecs="avc1.4d4028"';
 const supportsHls = Boolean(video.canPlayType('application/vnd.apple.mpegurl'));
 const appleMobile = /iP(?:ad|hone|od)/.test(navigator.userAgent) ||
