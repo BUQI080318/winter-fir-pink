@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#100813">
+  <meta name="description" content="粉色星光、落雪与逐字浮现的 Python 源码。">
+  <meta property="og:title" content="粉色圣诞树">
+  <meta property="og:description" content="喵小呆Zjr Merry Christmas">
+  <meta property="og:image" content="https://buqi080318.github.io/winter-fir-pink/cover-pink.jpg">
+  <title>粉色圣诞树</title>
+  <link rel="stylesheet" href="winter.css">
+  <script src="winter.js" defer></script>
+</head>
+<body>
+  <main>
+    <section id="orientation-gate" aria-labelledby="title">
+      <h1 id="title">粉色圣诞树</h1>
+      <p>横放手机，观看完整画面。</p>
+      <button type="button" id="rotate">横屏观看</button>
+    </section>
+    <section id="viewer" aria-label="粉色圣诞树" hidden>
+      <video id="fir" loop muted playsinline webkit-playsinline x5-playsinline x5-video-player-type="h5-page" preload="none" poster="cover-pink.jpg" aria-label="粉色圣诞树动画。喵小呆Zjr Merry Christmas"></video>
+      <button type="button" id="playback" aria-controls="fir" hidden>播放</button>
+      <span id="status" role="status"></span>
+    </section>
+    <noscript><p>请启用 JavaScript 后横放手机观看。</p></noscript>
+  </main>
+</body>
+</html>
